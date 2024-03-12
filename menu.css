@@ -1,0 +1,189 @@
+
+@media (max-width: 768px) {
+  }
+  
+
+body {
+    background-color: #2b2929; 
+}
+
+#welcomeMessage {
+    color: #f8f9fa; 
+}
+
+.logo {
+    position: absolute;
+    top: 10px; /* Distancia desde la parte superior */
+    left: 60px; /* Distancia desde la izquierda */
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Altura de la imagen */
+    border-radius: 10px;
+  }
+  
+.vertical-menu {
+    width: 200px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 115px;
+    margin-left: 10px;
+    height: 700px;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+}
+
+.vertical-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vertical-menu li a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #0f0e11;
+    text-align: center;
+}
+
+.vertical-menu li a:hover {
+    background-color: #caccca;
+}
+
+.balance-total, .dinero-en-cuenta, p {
+    font-family:"Quicksand", sans-serif;
+    font-weight: bold;
+}
+
+.balance-total, .dinero-en-cuenta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dinero-en-cuenta {
+    font-size: 25px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    
+}
+
+.rounded-container {
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 20px;
+    top: 70px;
+    left: 15%;
+    height: 700px;
+}
+
+.credit-card {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to bottom right, #000000, #333333, #8f8f8f);
+    color: rgba(185, 178, 178, 0.801);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 0 auto;
+}
+
+.chip, .card-number, .card-holder, .card-expiry, .bank-name {
+    position: absolute;
+}
+
+.chip {
+    width: 40px; /* Ancho del chip */
+    height: 30px; /* Altura del chip */
+    border-radius: 4px; /* Bordes redondeados */
+    position: absolute; /* Posición absoluta dentro de la tarjeta */
+    top: 10px; /* Distancia desde la parte superior */
+    left: 10px; /* Distancia desde la izquierda */
+  }
+
+  .chip img {
+    width: 40px;
+    height: 30px;
+    border-radius: 4px; /* Bordes redondeados */
+  }
+
+
+.card-number {
+    position: absolute;
+  bottom: 20px; /* Distancia desde la parte inferior */
+  left: 20px; /* Distancia desde la izquierda */
+}
+
+
+.card-holder {
+    margin-top: 20px;
+}
+
+.card-expiry {
+    bottom: 20px;
+    right: 20px;
+}
+
+.bank-name {
+    top: 20px;
+    right: 20px;
+    text-transform: uppercase;
+}
+
+.titulo-botones-usados {
+
+font-family:"Quicksand", sans-serif;
+    font-weight: bold;}
+
+.btn.btn-primary {
+    border-radius: 10px;
+    font-size: 12px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #aaa2a2;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+
+.transactions-aside {
+    width: 500px;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    position: absolute;
+    top: 115px;
+    right: 155px;
+    height: 700px;
+    font-family:"Quicksand", sans-serif;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Quicksand', sans-serif;
+}

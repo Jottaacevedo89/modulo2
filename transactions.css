@@ -1,0 +1,214 @@
+body {
+    background-color: #2b2929; 
+}
+
+.logo {
+    position: absolute;
+    top: 10px; /* Distancia desde la parte superior */
+    left: 60px; /* Distancia desde la izquierda */
+    width: 100px; /* Ancho de la imagen */
+    height: 100px; /* Altura de la imagen */
+    border-radius: 10px;
+  }
+
+
+.vertical-menu {
+    width: 200px; 
+    background-color: #f8f9fa; 
+    border-radius: 20px; 
+    overflow: hidden; /* Oculta el contenido que se desborde */
+    margin-top: 115px;
+    margin-left: 10px;
+    height: 700px;
+    font-weight: bold;
+    font-family: "Quicksand", sans-serif;
+    
+}
+
+.vertical-menu ul {
+    list-style-type: none; 
+    padding: 0;
+
+}
+
+
+.vertical-menu li a {
+    display: block; 
+    padding: 12px 16px; 
+    text-decoration: none; 
+    color: #0f0e11; 
+    text-align: center;
+}
+
+.vertical-menu li a:hover {
+    background-color: #caccca; 
+}
+
+
+.balance-total {
+    text-align: center;
+    margin-top: 20px; 
+    font-family:"Quicksand", sans-serif;
+    font-weight: bold;
+
+}
+
+.dinero-en-cuenta {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px; 
+    font-family:"Quicksand", sans-serif;
+    font-weight: bold;
+
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    position: absolute; 
+    top: 85px; 
+    left: 15%; 
+    height: 1000px;
+}
+
+.rounded-container {
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: left;
+    top: 70px; 
+    left: 15%; 
+    height: 700px;
+    
+}
+
+p {
+    font-family:"Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.credit-card {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to bottom right, #000000, #333333, #8f8f8f );
+    color: rgba(185, 178, 178, 0.801);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  
+  .card-number {
+    font-size: 18px;
+    margin-top: 60px;
+  }
+  
+  
+  .card-expiry {
+    font-size: 16px;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .bank-name {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+
+}
+
+.chip {
+    width: 40px; /* Ancho del chip */
+    height: 30px; /* Altura del chip */
+    border-radius: 4px; /* Bordes redondeados */
+    position: absolute; /* Posición absoluta dentro de la tarjeta */
+    top: 10px; /* Distancia desde la parte superior */
+    left: 10px; /* Distancia desde la izquierda */
+  }
+
+  .chip img {
+    width: 40px;
+    height: 30px;
+    border-radius: 4px; /* Bordes redondeados */
+  }
+
+h2 {
+    font-family:"Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h3.text-center {
+    font-family:"Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    top: 300px;
+}
+
+
+  .transacciones-aside {
+    width: 600px; 
+    background-color: #f8f9fa; 
+    border-radius: 20px; 
+    padding: 20px; 
+    margin-left: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 110px; 
+    right: 50px;
+    height: 700px;
+    font-family:"Quicksand", sans-serif;
+       
+    }
+    
+
+  .btn-primary {
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #2b2929;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+  
